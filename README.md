@@ -3,12 +3,18 @@
 This is an approach of the classic `FILO` structrued collection.
 
 # Constructor
-* NewStack  
+* NewStack
+```go
+NewStack(ts bool)
+```
 instantiate a new stack, the stack is **threadsafe** when and **only** when the argument `ts` is true
 
 # Member functions
 
-* Push  
+* Push
+```go
+Push(item interface{})
+```
 push an item on top of this stack
 
 * Pop  
